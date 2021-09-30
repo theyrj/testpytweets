@@ -1,0 +1,6 @@
+curl -k -i -H "Content-Type: application/json"\
+-H "x-apikey: 560bd47058e7ab1b2648f4e7"\
+-X GET 'https://inventory-fac4.restdb.io/rest/motorbikes'
+curl -k -H "Content-Type: application/json"\
+-H "x-apikey: 560bd47058e7ab1b2648f4e7"\
+-X DELETE 'https://inventory-fac4.restdb.io/rest/motorbikes/560bd66201e7ab1b2648f4e7'
